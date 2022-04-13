@@ -4,7 +4,7 @@ from selenium.webdriver.chrome.options import Options
 import win32gui, win32con
 
 tekst = ''
-jezyk = 'pl'
+jezyk = 'pl'  #<-- choose your language
 
 opt = Options()
 opt.add_argument("--disable-infobars")
